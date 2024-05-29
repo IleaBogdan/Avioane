@@ -1,0 +1,55 @@
+body {
+    display:flex;
+}
+.button {
+    border: black;
+    color: black;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1px 1px;
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+.harta {
+    background-color: #1A1AC3;
+    border-right: solid 1px #30a5be;
+    border-bottom: solid 1px #30a5be;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    position: relative;
+}
+.celula {
+    border-left: solid 1px #30a5be;
+    border-top: solid 1px #30a5be;
+    width: 24px;
+    height: 24px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.plane {
+    z-index: 0;
+    position: relative;
+}
+img {
+    position: relative;
+    z-index: 1;
+}
+
+.rotate000 {
+    transform: rotate(0deg);
+}
+.rotate090 {
+    transform: rotate(90deg);
+}
+.rotate180 {
+    transform: rotate(180deg);
+}
+.rotate270 {
+    transform: rotate(270deg);
+}
