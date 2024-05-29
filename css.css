@@ -1,6 +1,5 @@
 body {
     display:flex;
-    filter: invert();
 }
 .button {
     border: black;
@@ -12,7 +11,7 @@ body {
     font-size: 14px;
     margin: 1px 1px;
     cursor: pointer;
-    background-color: magenta;
+    background-color: #4CAF50;
 }
 .harta {
     background-color: #1A1AC3;
